@@ -18,7 +18,7 @@ const students = [
   'Patrick',
   'Steve',
 ];
-
+console.log('===Challenge 1===')
 for (let i = 0; i < students.length; i++) {
   console.log(students[i])
 }
@@ -26,7 +26,7 @@ for (let i = 0; i < students.length; i++) {
 // Challenge 2
 // Loop through the following array BACKWARDS, console.logging out each value. 64 should be printed first and 100 last.
 const grades = [100, 80, 110, 75, 83, 64];
-
+console.log('===Challenge 2===')
 for (let i = grades.length - 1; i >=0; i--) {
   console.log(grades[i])
 };
@@ -35,6 +35,12 @@ for (let i = grades.length - 1; i >=0; i--) {
 // Challenge 3
 // Console.log out only the even numbers in the following array.
 const positiveNumbers = [5, 2, 13, 17, 4, 102, 3000];
+console.log('===Challenge 3===')
+for (let i = 0; i < positiveNumbers.length; i++) {
+  if (positiveNumbers[i] % 2 == 0) {
+    console.log(positiveNumbers[i]);
+  }
+}
 
 
 // Challenge 4
@@ -45,6 +51,8 @@ const mixedSignNumbers = [3, 15, 14, -2, -3, -8, -103, 4];
 // Challenge 5
 // Remove two values from the beginning and one value from the end of the following array, simply by deleting them in the following line. Then console.log out each value individually.
 const symmetricalCapitals = ['A', 'H', 'I', 'M', 'O', 'T', 'U', 'V', 'W', 'X', 'Y'];
+
+
 
 
 // Challenge 6
