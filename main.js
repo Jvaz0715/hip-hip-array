@@ -62,14 +62,25 @@ let a = symmetricalCapitals.shift(0);
 let h = symmetricalCapitals.shift(0);
 let y = symmetricalCapitals.pop(-1);
 
-console.log(a);
+//Not sure if we needed to console.log the items we removed, or the remaining items
+/*console.log(a);
 console.log(h);
-console.log(y);
+console.log(y);8*/
+
+for (let i = 0; i < symmetricalCapitals.length; i++){
+  console.log(symmetricalCapitals[i])
+}
 
 
 // Challenge 6
 // Add a value (your choice!) to the start of the following array and two values (of your choice) to the end simply by adding them in the following line, and then console.log out each value individually.
 const fibonacciNumbers = [1, 1, 2, 3, 5, 8, 13];
+console.log('===Challenge 6===')
+fibonacciNumbers.unshift(8);
+fibonacciNumbers.push(5, 21);
+for (let i = 0; i < fibonacciNumbers.length; i++) {
+  console.log(fibonacciNumbers[i])
+}
 
 
 // Challenge 7
