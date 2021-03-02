@@ -144,13 +144,21 @@ for (let i = 0; i < dinosaurs.length; i++) {
 
 // Challenge 13
 // Use .join to change the dinosaur strings from the above array into one string with a '*' string as the "separator". Then console.log out that string.
+console.log('===Challenge 13===')
+console.log(dinosaurs.join('*'));
 
 
 // Challenge 14
 // Use .reverse to reverse the dinosaur array and then log out the original array. .reverse DOES change the original array.
+console.log('===Challenge 14===')
+dinosaurs.reverse();
+for (let i = 0; i < dinosaurs.length; i++) {
+  console.log(dinosaurs[i]);
+}
 
 
 // Challenge 15
 // Use .concat to combine the following two arrays into a NEW array you make (.concat RETURNS an array). Then console.log out each value of that new array individually. Now console.log both the primaries and secondaries arrays, noting that .concat does NOT mutate the original arrays.
 const primaries = ['red', 'yellow', 'blue'];
 const secondaries = ['orange', 'green', 'purple'];
+
